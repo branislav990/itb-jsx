@@ -1,0 +1,59 @@
+body {
+    background-color: ghostwhite;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(137, 20, 20);
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    color: #22C86B;
+    font-size: 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border: dashed 2px black;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    font-size: 24px;
+}
+
+h3:nth-of-type(2) {
+    text-align: center;
+    color: green;
+    font-family: 'Times New Roman', serif;
+}
+
+li:nth-child(odd) {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
